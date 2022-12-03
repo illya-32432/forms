@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+input,
+textarea{
+    box-sizing: border-box;
+}
+
+.wrapper{
+    max-width: 990px;
+    margin: 0 auto;
+}
+
+.form-text-h1{
+    text-align: center;
+    font-size: 30px;
+    color: #1f222c;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    margin: 20px 0 100px 0;
+}
+
+.name-user{
+    margin-bottom: 10px;
+}
+
+.input{
+    padding: 10px 113px 10px 15px;
+    border: 1.5px solid #cccccc;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #b3b3b3;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+.input:hover{
+    border: 1.5px solid #3d69ff;
+    box-shadow: 0 0 5px 0px #3d69ff;
+}
+
+.sel-op{
+    margin-top: 10px;
+}
+
+.text-area{
+    margin: 10px 0;
+}
+
+.list{
+    border: 1.5px solid #cccccc;
+    border-radius: 3px;
+    padding: 9px 165px 9px 11px;
+}
+
+
+.option-first{
+    font-size: 14px;
+    color: #1f222c;
+    font-weight: 400;
+    font-family: "Roboto";
+    margin: 10px 0;
+}
+
+.buttom button{
+    background-color: #12d661;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto";
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 90px;
+}
+
+.pop-text{
+    font-size: 14px;
+    color: #b3b3b3;
+    font-weight: 400;
+    font-family: "Roboto";
+    padding: 10px;
+}
