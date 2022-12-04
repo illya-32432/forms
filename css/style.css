@@ -37,6 +37,7 @@ textarea{
     color: #b3b3b3;
     font-weight: 400;
     font-family: "Roboto";
+    outline: none;
 }
 
 .input:hover{
