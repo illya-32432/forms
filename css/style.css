@@ -77,7 +77,10 @@ h1{
     border: 1.5px solid #cccccc;
     border-radius: 3px;
     padding: 9px 165px 9px 11px;
+    outline: none;
 }
+
+
 
 .grey{
     font-size: 14px;
@@ -112,8 +115,9 @@ h1{
 
 .pop-text{
     font-size: 14px;
-    color: #b3b3b3;
+    color: #1f222c;
     font-weight: 400;
     font-family: "Roboto";
     padding: 10px;
+    outline: none;
 }
