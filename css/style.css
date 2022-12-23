@@ -440,12 +440,12 @@ section.simple-form {
 }
 
 .radio1:checked + label::after {
-    top: 3.75px;
-    left: 3.66px;
+    top: 4.75px;
+    left: 5.66px;
     width: 5px;
-    height: 6px;
+    height: 5px;
     border-radius: 50%;
-    border: 2px solid #244dd7;
+    border: 1px solid #244dd7;
     background-color: #244dd7;
 }
 
