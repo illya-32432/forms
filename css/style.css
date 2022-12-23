@@ -89,12 +89,8 @@
 
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto Slab", sans-serif;
     box-sizing: border-box;
-}
-
-.perwa-colonka{
-    width: 330px;
 }
 
 h1 {
@@ -102,7 +98,7 @@ h1 {
     color: #1f222c;
     font-weight: 700;
     text-align: center;
-    font-family: 'Roboto Slab';
+    font-family: "Roboto Slab", serif;
 }
 
 h2 {
@@ -110,6 +106,7 @@ h2 {
     text-transform: uppercase;
     color: #b3b3b3;
     font-weight: 700;
+    font-family: "Roboto";
 }
 
 hr {
@@ -214,6 +211,10 @@ section.simple-form {
     width: 330px;
 }
 
+.perwa-colonka {
+    width: 330px;
+}
+
 .second-mail {
     min-height: 131px;
     height: 131px;
@@ -228,7 +229,7 @@ section.simple-form {
     font-weight: 700;
     font-family: "Roboto";
     border-radius: 3px;
-    background-color: #48af72;
+    background-color: #12d661;
     border: none;
 }
 
@@ -259,12 +260,12 @@ section.simple-form {
     font-size: 30px;
     color: #cecdcd;
     transform: rotate(-45deg);
-    transition: all 0.6s ease;
+    transition: all 1s ease;
     cursor: pointer;
 }
 
 .exit-fix:hover{
-    color: #5c24d7;
+    color: #184cf8;
 }
 
 .fixed {
@@ -353,10 +354,10 @@ section.simple-form {
 }
 
 .radio + label::before {
-    left: -1.2px;
-    top: -2px;
-    width: 16px;
-    height: 15px;
+    left: 0;
+    top: -1px;
+    width: 14px;
+    height: 14px;
     border-radius: 50%;
     background-color: #fff;
     border: 1px solid #ccc;
@@ -368,7 +369,7 @@ section.simple-form {
 }
 
 .radio:checked + label::after {
-    top: 2px;
+    top: 1.8px;
     left: 3px;
     width: 6px;
     height: 6px;
@@ -387,10 +388,7 @@ section.simple-form {
     border: 1px solid #e5e5e5;
 }
 
-
-
-
-.radio-flex {
+.radio1-flex {
     align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
@@ -404,30 +402,27 @@ section.simple-form {
     font-family: "Roboto";
 }
 
-.radio1,
-.radio-last {
+.radio1 {
     display: none;
 }
 
-.radio1 + label,
-.radio-last +label {
+.radio1 + label {
     position: relative;
     padding-left: 27px;
     cursor: pointer;
 }
 
 .radio1 + label::before,
-.radio1 + label::after,
-.radio-last +label::before {
+.radio1 + label::after {
     content: "";
     position: absolute;
 }
 
 .radio1 + label::before {
-    left: -1.2px;
-    top: -2px;
-    width: 17px;
-    height: 17px;
+    left: 0;
+    top: -1px;
+    width: 14px;
+    height: 14px;
     border-radius: 50%;
     background-color: #fff;
     border: 1px solid #ccc;
@@ -439,16 +434,16 @@ section.simple-form {
 }
 
 .radio1:checked + label::after {
-    top: 4.75px;
-    left: 5.66px;
-    width: 5px;
-    height: 5px;
+    top: 2.8px;
+    left: 4px;
+    width: 6px;
+    height: 6px;
     border-radius: 50%;
     border: 1px solid #244dd7;
     background-color: #244dd7;
 }
 
-.radio-last + label::before {
+.radio1-last + label::before {
     left: 0;
     top: -1px;
     width: 16px;
@@ -495,6 +490,17 @@ section.simple-form {
 .check:checked + label::before {
     background-color: #fff;
     border: 1px solid #244dd7;
+}
+
+.check:checked + label::after {
+    top: 5px;
+    left: 5px;
+    width: 8px;
+    height: 5px;
+    border-left: 3px solid #244dd7;
+    border-bottom: 3px solid #244dd7;
+    transform: rotate(-45deg);
+    box-sizing: border-box;
 }
 
 .check-dis + label,
@@ -671,24 +677,13 @@ section.simple-form {
 }
 
 .list + label::before {
-    top: -1px;
+    top: -1.4px;
     left: -55px;
     width: 45px;
     height: 23.5px;
     border-radius: 12px;
-    background-color: #9E9E9E;
+    background-color: #cfcfd1;
     transition: all .5s ease;
-}
-
-.check:checked + label::after {
-    top: 5px;
-    left: 5px;
-    width: 8px;
-    height: 5px;
-    border-left: 3px solid #244dd7;
-    border-bottom: 3px solid #5c24d7;
-    transform: rotate(-45deg);
-    box-sizing: border-box;
 }
 
 .list + label::after {
@@ -698,29 +693,28 @@ section.simple-form {
     height: 21px;
     border-radius: 11px;
     background-color: #fff;
-    transition: all .7s ease;
+    transition: all .5s ease;
 }
 
 .list:checked + label::before {
-    top: -1px;
+    top: -1.4px;
     left: -55px;
     width: 45px;
     height: 23.5px;
     border-radius: 12px;
-    background-color: #002fca;
-    transition: all .7s ease;
+    background-color: #3e6aff;
+    transition: all .5s ease;
 }
 
 .list:checked + label::after {
     top: 0px;
-    left: -32px;
+    left: -33px;
     width: 21px;
     height: 21px;
     border-radius: 11px;
     background-color: #fff;
     transition: all .5s ease;
 }
-
 
 .table-form-simple {
     margin: 0;
@@ -809,7 +803,7 @@ section.simple-form {
 
 .tb-radio + label::before {
     top: 0;
-    left: 0px;
+    left: 1px;
     box-sizing: border-box;
 }
 
@@ -843,7 +837,7 @@ section.simple-form {
 }
 
 .button-file label {
-    padding: 18px 0;
+    padding: 14px 0;
     font-size: 14px;
     color: #fff;
     font-weight: 700;
@@ -863,6 +857,7 @@ section.simple-form {
 }
 
 .table-form-last td {
+    padding-right: 7px;
     font-size: 13px;
     color: #b3b3b3;
     font-weight: 400;
