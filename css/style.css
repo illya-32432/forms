@@ -849,6 +849,11 @@ section.simple-form {
     max-width: 700px;
 }
 
+.arrow-bot {
+    width: 222px;
+    position: relative;
+}
+
 .table-form-last p {
     font-size: 18px;
     color: #1f222c;
@@ -866,11 +871,6 @@ section.simple-form {
 
 .bottom-hr {
     margin: 28px 0;
-}
-
-.arrow-bot{
-   width: 230px;
-   position: relative;
 }
 
 .arrow-bot::before,
