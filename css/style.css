@@ -870,6 +870,7 @@ section.simple-form {
 }
 
 .bottom-hr {
+    max-width: 690px;
     margin: 28px 0;
 }
 
